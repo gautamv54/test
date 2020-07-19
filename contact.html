@@ -1,0 +1,266 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Homes</title>
+     <!-- google fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- css stylesheets -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- font awesome -->
+  <script defer src="http://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- bootstrap script -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><span class="multi">Multi</span> Homes</a>
+        <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        <div class="collapse navbar-collapse "  id="navbarSupportedContent"style="background-color :#f7f7f7;">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: #000000;" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #000000;"href="blog.html">Blog</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #000000;"href="knowUs.html">About us</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #000000;"href="contact.html">Get in touch</a>
+            </li>
+          </ul>
+          
+        </div>
+    
+      </nav>
+    </div>
+    
+    
+
+        <div class="container-contact">
+          <div class="py-5 text-center">
+            <h2 class="mota"><span class="multi">Multi</span> Homes</a></h1>
+            
+            <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply La random text. It has roots in a piece of classical 
+                and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+          </div>
+
+
+          <div class="col-md-8 order-md-1">
+              <h4 class="mb-3">Get In Touch</h4>
+              <form action="connect.php" method="POST" >
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+
+                    <label for="firstName">First name<span class="text-muted">*</span></label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name.." name="firstName">
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="lastName">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name.." name="lastName">
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="mb-3">
+                  <label for="address2">Phone Number<span class="text-muted">*</span> </label>
+                  <input type="number" class="form-control" id="number" placeholder="Phone Number" name="phoneNumber">
+                </div>
+               
+    
+
+
+
+                <div class="mb-3">
+                  <label for="email">Email <span class="text-muted">*</span></label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com" name="email">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+
+
+                <div class="mb-3">
+                  <label for="Budget">Aprox Budget? <span class="text-muted">(Optional)</span></label>
+                 
+                  <select id="number" name="aproxBudget">
+                      <option value="None">None..</option>
+                      <option value="25L-50L">25Lac-50Lac</option>
+                      <option value="50L-75L">50Lac-75Lac</option>
+                      <option value="70L-1Cr">75Lac-1Cr</option>
+                      <option value="1Cr-1.5Cr">1Cr-1.5Cr</option>
+                      <option value="2Cr">More than 2Cr</option>
+                    </select>
+                                     
+                </div>
+
+
+                <div class="mb-3">
+                  <label for="Budget">What kind of flat do you want?<span class="text-muted">*</span> </label>
+                 
+                  <select id="number" name="flatType">
+                      <option value="None">None..</option>
+                      <option value="one BHK">One BHK</option>
+                      <option value="Two BHK">Two BHK</option>
+                      <option value="Three BHK">Three BHK</option>
+                      <option value="Four BHK">Four BHK</option>
+                      
+                    </select>
+                                     
+                </div>
+
+
+
+
+                <div class="mb-3">
+                  <label for="Budget">Location? <span class="text-muted">*</span></label>
+                 
+                  <select id="number" name="location">
+                      <option value="None">None..</option>
+                      <option value="Adampur">Adampur</option>
+                      <option value="Tilkamanjhi">Tilkamanjhi</option>
+                      <option value="Khanjarpur">Khanjarpur</option>
+                      <option value="Kotwali chowk">Kotwali chowk</option>
+                      
+                    </select>
+                                     
+                </div>
+
+
+
+
+                <div class="mb-3">
+                  <label for="Budget">Possession? <span class="text-muted">*</span></label>
+                 
+                  <select id="number" name="possession" >
+                      <option value="None">None..</option>
+                      <option value="Under Construction">Under Construction</option>
+                      <option value="Ready to move">Ready to move</option>
+                      <option value="After 1 month">After 1 month</option>
+                      <option value="After 3 month">After 3 month</option>
+                      <option value="After 6 month">After 6 month</option>
+                      <option value="After an year">After an year</option>
+                      
+                    </select>
+                                     
+                </div>
+
+
+
+                <div class="mb-3">
+                  <label for="Budget">Want home loan?</label>
+                 
+                  <select id="number" name="homeLoan" >
+                      <option value="None">None..</option>
+                      <option value="Yes">YES</option>
+                      <option value="No">NO</option>
+                      
+                      
+                    </select>
+                                     
+                </div>
+
+
+                
+                  <div class="mb-3">
+                      <label for="address2">Want to fix an appointment/meeting with US?<span class="text-muted">(Optional)</span></label>
+                      <input type="date" class="text-muted" id="number" placeholder="Date" name="appointment">
+                    </div>     
+               
+
+                
+                <br><br>
+
+
+
+
+                <input type="submit" name="buttom" value="SUBMIT"class="btn btn-outline-secondary" >
+                  
+                
+                <div class="product-device box-shadow d-none d-md-block"></div>
+                <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+              
+              </form>
+              </div container>
+
+
+          </div>
+          <hr>
+
+
+
+            
+            <section class="gray">
+                <div class="container">
+                <div class="row">
+                <div class="section-img col-sm-12 col-md-6"><img alt="Seattle Skyline" class="img-fluid" src="css/images/photo-1582268611958-ebfd161ef9cf.jpg"></div>
+                <div class="section-text col-sm-12 col-md-6">
+                <h3 class="section-title">Bihar Headquarter</h3>
+                <p class="sub-title">Silk city of INDIA </p>
+                <a href="tel:8863018035"><i class="fas fa-fw icon fa-phone"></i>&nbsp;(+91) 8863018035</a>
+                <a href="tel:9334807758"><i class="fas fa-fw icon fa-phone"></i>&nbsp;(+91) 9334807758</a>
+                <p><a target="_blank" rel="noopener" href="https://goo.gl/maps/aEuxhsTnufXRhzzh9">
+                <i class="fas icon fa-map-marker-alt"></i> Surkhikal, Bhagalpur, Bihar 812001
+                
+                </a>
+                </p>
+                </div>
+                </div>
+                </div>
+                </section>
+    
+    
+
+
+
+            <footer  class="footer">
+   
+   
+                <a href="https://twitter.com/HomesMulti?s=09"><i class="fab fa-twitter  icon1"></i></a>
+                <a href="https://www.facebook.com/multihomesatbgp"><i class="fab fa-facebook-f  icon1"></i></a>
+                <a href="https://www.instagram.com/multi.homes/"><i class="fab fa-instagram  icon1"></i></a>
+                <i class="fas fa-envelope  icon1"></i>
+                <p class="copyright">© Copyright 2020 <span class="multii">Multi</span>  <spam class="hom">Homes</spam></p>
+            
+            
+              </footer>
+
+
+
+
+
+
+</body>
+</html>
